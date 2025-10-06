@@ -6,6 +6,8 @@ import TopProducts from "~/components/home/TopProducts/TopProducts";
 import BestDeals from "~/components/home/BestDeals/BestDeals";
 import { MegaCollections } from "~/components/home/MegaCollections/MegaCollections";
 import RecentlyViewed from "~/components/home/RecentlyViewed/RecentlyViewed";
+import LongAdBanner from "~/components/home/LongAdBanner/LongAdBanner";
+import DeliveryPoster from "~/components/home/DeliveryPoster/DeliveryPoster";
 
 export function meta({ }: Route.MetaArgs) {
     return [
@@ -22,7 +24,9 @@ export default function Home() {
             <TopProducts />
             <BestDeals />
             <MegaCollections />
+            <LongAdBanner />
             <RecentlyViewed />
+            <DeliveryPoster />
         </div>
 
     );

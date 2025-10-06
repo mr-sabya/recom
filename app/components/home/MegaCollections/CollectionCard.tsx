@@ -19,7 +19,7 @@ export function CollectionCard({
                     <span className="mr-2 text-lg font-bold text-red-600">
                         Starting From
                     </span>
-                    <span className="text-3xl font-extrabold text-red-600">
+                    <span className="text-3xl font-extrabold text-red-600 mb-11">
                         ${price.toFixed(2)}
                     </span>
                 </div>
@@ -42,7 +42,7 @@ export function CollectionCard({
                 </button>
             </div>
 
-            <div className="relative ">
+            <div className="relative w-full">
                 <img
                     src={imageSrc}
                     alt={imageAlt}

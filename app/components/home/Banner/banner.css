@@ -25,3 +25,8 @@
     background-color: #2563eb;
     /* Tailwind blue-600 */
 }
+
+/*  */
+.banner .banner-item h2{
+    font-size: 55px;
+}
