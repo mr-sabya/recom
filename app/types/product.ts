@@ -4,10 +4,13 @@ export interface Product {
     name: string;
     image: string;
     price: number;
-    oldPrice?: number; // Optional
-    label?: string; // Optional
-    rating: number; // Assuming 0-5 scale
+    oldPrice?: number;
+    label?: string;
+    rating: number;
     reviews: number;
-    colors: string[];
+    colors?: string[]; // Example of a variation/attribute
+    category: string; // Added for filtering
+    material?: string; // Example of another attribute
+    size?: string[]; // Example of a variation
     link: string;
 }

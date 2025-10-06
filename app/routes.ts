@@ -5,4 +5,7 @@ export default [
 
     // "/about" path → renders about.tsx
     route("about", "routes/about.tsx"),
+
+    // shop page
+    route("shop", "routes/shop.tsx"),
 ] satisfies RouteConfig;
