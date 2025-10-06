@@ -53,7 +53,7 @@ export default function Header() {
                         <span className="absolute -top-2 -right-3 text-xs bg-blue-600 text-white rounded-full w-4 h-4 flex items-center justify-center">3</span>
                     </NavLink>
 
-                    <NavLink to="/account">
+                    <NavLink to="/signin">
                         <User className="h-6 w-6" />
                     </NavLink>
 
@@ -133,7 +133,7 @@ export default function Header() {
                         <NavLink to="/shop" className="hover:text-blue-600">Shop</NavLink>
                         <NavLink to="/wishlist" className="hover:text-blue-600">Wishlist</NavLink>
                         <NavLink to="/cart" className="hover:text-blue-600">Cart</NavLink>
-                        <NavLink to="/account" className="hover:text-blue-600">Account</NavLink>
+                        <NavLink to="/signin" className="hover:text-blue-600">Account</NavLink>
                     </nav>
                 </div>
             )}
